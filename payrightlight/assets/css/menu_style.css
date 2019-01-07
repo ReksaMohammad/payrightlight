@@ -1,0 +1,437 @@
+.wrapper1{
+	color: #44433f;	
+	font: 14px "Futura Medium", "Myriad Pro", "Gill Sans", Helvetica, Verdana, Arial, sans-serif;
+	margin: 0;
+	padding: 4px 0 0;
+	}
+	.wrapper1 a{
+		color: #E5F2FB;
+		text-decoration: none;
+	}
+	.wrapper1 a:hover {
+		color: #09548B;
+	}
+	.wrapper1 p {
+		margin: 0 0 17px;
+		padding: 0;
+		line-height: 18px;
+	}
+.wrapper {
+	width: 910px;
+	margin: 20px auto;
+}
+.nav {
+	background: #fff url(images/nav_bg.png) repeat-x;
+	float: left;
+}
+.nav-wrapper {
+	clear: both;
+	float: left;
+}
+.nav-left {
+	background: url(images/nav_left.png) no-repeat top left;
+	float: left;
+	width: 11px;
+	height: 41px;
+}
+.nav-right {
+	background: url(images/nav_right.png) no-repeat top right;
+	float: left;
+	width: 11px;
+	height: 41px;
+}
+.nav ul {
+	width: 848px;
+	height: 38px;
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+	list-style: none;
+	font-size: 15px;
+}
+.nav li {
+	float: left;
+	padding: 0 7px;
+	background: url(images/split.png) no-repeat right center;
+	position: relative;
+	z-index: 91;
+	opacity: 1;
+}
+.nav li.last {
+	background:none;
+}
+.nav li:hover {
+	z-index:92;
+}
+.nav li a {
+	display: block;
+	line-height: 38px;
+	overflow: hidden;
+	float: left;
+}
+a .menu-left {
+	background: url(images/menu_left.gif) no-repeat left top;
+	width: 8px;
+	height: 32px;
+	line-height: 35px;
+	display: block;
+	float: left;
+}
+a .menu-mid {
+	background: url(images/menu_mid.gif) repeat-x top left;
+	height: 32px;
+	line-height: 35px;
+	display: block;
+	float: left;
+}
+a .menu-right {
+	background: url(images/menu_right.gif) no-repeat top left;
+	width: 8px;
+	height: 32px;
+	line-height: 35px;
+	display: block;
+	float: left;
+}
+.nav li a:hover .menu-left,
+.nav li.active a .menu-left,
+.nav li:hover a .menu-left,
+.nav li a:hover .menu-mid,
+.nav li.active a .menu-mid,
+.nav li:hover a .menu-mid,
+.nav li a:hover .menu-right,
+.nav li.active a .menu-right,
+.nav li:hover a .menu-right {
+	background-position: 0 -37px;
+	line-height: 35px;
+}
+.nav li a:hover,
+.nav li.active a,
+.nav li.hover a,
+.nav li:hover a {
+	color: #09548B;
+}
+.nav li:hover .sub,
+.nav li.hover .sub {
+	display:block;
+}
+.nav li .sub {
+	display: none;
+	position: absolute;
+	top: 27px;
+	left: 6px;
+	background: url(images/submenu_top.png) no-repeat;
+	width: 186px;
+	padding-top: 9px;
+}
+.nav li ul {
+	background: url(images/submenu_bg.png) repeat-y;
+	width: 162px;
+	height: auto;
+	margin: 0;
+	padding: 0 12px 10px;
+	list-style: none;
+	font-size: 14px;
+}
+
+.nav li:hover li,
+.nav li.active li {
+	width: 100%;
+	padding: 1px 0 2px;
+	border-bottom: 1px #C1D9F0 dashed;
+	background: none !important;
+}
+.nav li:hover li a,
+.nav li.active li a {
+	color: #09548B;
+	background: none !important;
+	line-height: normal;
+	width: 156px;
+	padding: 8px 3px 3px;
+	text-indent: 1px;
+}
+.nav li:hover li a:hover,
+.nav li.active li a:hover {
+	color: #fff;
+	background: #165B9F !important;
+	text-decoration: none;
+	line-height: normal;
+}
+/*IE*/
+.nav li li a:hover,
+.nav li li a:hover {
+	color: #fff;
+	background: #165B9F !important;
+	text-decoration: none;
+	line-height: normal;
+}
+/**/
+.nav .btm-bg {
+	background: url(images/submenu_bottom.png) no-repeat;
+	width: 205px;
+	height: 9px;
+	overflow: hidden;
+	clear: both;
+}
+.content {
+	width: 870px;
+	background: transparent url(images/content_bg.png) repeat-y;
+	float: left;
+	padding: 10px 20px;
+}
+.content h1 {
+	color: #333;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px dashed #C1D9F0;
+}
+.content h2 {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: -5px;
+}
+.content-top {
+	width: 910px;
+	background: transparent url(images/content_top.png) no-repeat;
+	height: 13px;
+	float: left;
+}
+.content p {
+	padding: 0 15px;
+	text-align: justify;	
+}
+.content-bottom {
+	width: 910px;
+	background: transparent url(images/content_bottom.png) no-repeat;
+	height: 13px;
+	float: left;
+}
+
+
+/* Start added by Lukman Hakim ------------------------------------------------------- */
+.menu {
+	margin-top: 1rem;
+	height:40px;
+	background:url(images/submenu-nav-bg.png) left bottom repeat-x;
+	position:relative;
+	z-index:10;
+}
+/*
+.nocurrent {
+	z-index:30;
+}
+.homecurrent {
+	z-index:20;
+}
+*/
+.menu ul {
+	padding:0;
+	margin:0;
+	list-style:none; 
+}
+.menu > ul {
+	float:left;
+}
+.menu > ul > li {
+	float:left;
+	margin-right:5px;
+}
+.menu > ul > li > a {
+	display:block;
+	color:#5d5d5d;
+	line-height:40px;
+	background:transparent;
+	text-decoration:none;
+	padding:0 0 0 10px;
+	font-size:14px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	 border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.menu > ul > li > a b {
+	display:block;
+	background:transparent;
+	padding:0 10px 0 0;
+	font-weight:normal;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	 border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.menu > ul > li > ul {
+	position:absolute;
+	left:-9999px;
+	height:36px;
+	opacity:0;
+	padding:3px 10px 3px 0px;
+	/*width:100%;*/
+    width:845px;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+.menu > ul > li.current > ul {
+    position:absolute;
+    left:-9999px;
+    height:36px;
+    padding:0 0 0 0;
+    /*width:100%;*/
+    width:845px;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.menu > ul > li > ul > li {
+	float:left;
+	position:relative;
+}
+.menu > ul > li > ul > li > a {
+	display:block;
+	color:#555;
+	text-decoration:none;
+	padding:3px 10px;
+	font-size:12px;
+	margin-top: 0.5rem;
+	transition: 0.5s;
+}
+.menu > ul > li.current > ul > li > a {
+	display:block;
+	color:#555;
+	text-decoration:none;
+	padding:3px 10px;
+	font-size:12px;
+	margin-right:5px;
+	margin-top: 0.5rem !important;
+}
+.menu > ul > li > ul > li > a.arrow {
+	padding: 0 20px 0 10px;
+    background:url(images/submenu-sub-nav-arrow-n.png) no-repeat 92% 48%;
+}
+.menu > ul > li.current > ul > li > a.arrow {
+	padding: 0 20px 0 10px;
+	background:url(images/submenu-sub-nav-arrow.png) no-repeat 92% 48%;
+}
+.menu > ul > li > ul > li > ul {
+	position:absolute;
+	left:-9999px;
+	background:#555657;
+}
+.menu > ul > li > ul > li > ul > li > a {
+	display:block;
+	color:#ababab;
+	text-decoration:none;
+	padding:3px 5px 3px 0;
+	white-space:nowrap;
+	font-size:14px;
+	line-height:20px;
+}
+.menu > ul > li:hover > a {
+	background:url(images/submenu-top-nav-selected1.png);
+	color:#555;
+}
+.menu > ul > li:hover > a b {
+	background:url(images/submenu-top-nav-selected1.png);
+}
+.menu ul li:hover {
+	direction:ltr;
+}
+.menu > ul > li:hover > ul {
+	left:0;
+	opacity:1;
+}
+.menu > ul > li > ul > li:hover > a {
+	color:#555;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.menu > ul > li > ul > li:hover > a.arrow {
+	background:#555657 url(images/submenu-sub-nav-arrow-s.png) no-repeat 92% 48%;
+}
+.menu > ul > li > ul > li:hover > ul {
+	left:0px;
+	top:27px;
+	-moz-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+.menu > ul > li > ul > li > ul > li > a:hover {
+	color:#555;
+}
+.menu > ul > li.current > a {
+	/*background:#f28c38;*/
+	color: #fff;
+	border-bottom: 2px solid #555;
+}
+
+
+.menu > ul > li.current > a b {
+	/*background:#f28c38;*/
+	color: #fff;
+}
+.menu > ul > li.current > ul {
+	left:0;
+	opacity:1;
+}
+.menu > ul:hover > li.current > a {
+	/*background:#f28c38;*/
+	background:#007EBF;
+}
+.menu > ul:hover > li.current > a b {
+	/*background:#f28c38;*/
+}
+.menu > ul:hover > li.current > ul {
+	left:-9999px;
+}
+.menu > ul:hover > li.current:hover > a {
+	/*background:#f28c38;*/
+	background:#fff;
+}
+.menu > ul:hover > li.current:hover > a b {
+	/*background:#f28c38;*/
+	color: #fff;
+}
+.menu > ul:hover > li.current:hover > ul {
+	left:0;
+	opacity:1;
+}
+.menu > ul > li > ul > li.selected > a {
+	color:#fff;
+	margin: 0 !important;
+	margin-top: 0.5rem !important;
+	background-color: #2B7BE1;
+	border-radius: 5px;
+	margin-right: 5px !important;
+}
+.menu > ul > li > ul > li.selected > a.arrow {
+	background:#555657 url(images/submenu-sub-nav-arrow-s.png) no-repeat 92% 48%;
+}
+.menu > ul > li > ul > li.current > a b {
+	background:#555657;
+}
+.menu > ul > li > ul > li.current > ul {
+	left:0;
+	opacity:1;
+}
+/* End added by Lukman Hakim ------------------------------------------------------- */
+
+<!--[if IE]>
+<style type="text/css" media="screen">
+body {
+behavior: url(csshover3.htc); /* call hover behaviour file */
+font-size: 100%; /* enable IE to resize em fonts */
+}
+</style>
+<![endif]-->

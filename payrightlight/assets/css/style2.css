@@ -1,0 +1,102 @@
+/* Logo Img */
+.m-brand .m-brand__logo .m-brand__logo-wrapper img {
+    max-height: 4vh;
+}
+
+/* Header behind logo */
+.m-stack.m-stack--ver>.m-stack__item {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Header Menu Hover */
+.m-header-menu.m-header-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--hover, .m-header-menu.m-header-menu--skin-light .m-menu__nav>.m-menu__item:hover {
+    background-color: rgb(241, 241, 241);
+    transition: 0.5s;
+}
+
+.m-header-menu .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+    color: #2B7BE1;
+}
+
+/* Header Menu Text Hover*/
+.m-header-menu.m-header-menu--skin-light .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text:hover {
+    color: #2B7BE1;
+    transition: 0.5s;
+}
+
+/* Header Menu Icon */
+.m-header-menu.m-header-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-icon {
+    color: #2B7BE1;
+}
+
+/* Header Menu Icon Hover */
+.m-header-menu.m-header-menu--skin-dark .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-icon:hover {
+    color: #fff;
+}
+
+/* Header Photo Profil */
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item>.m-nav__link .m-topbar__userpic img {
+    max-width: 35px !important;
+}
+
+/* Header Background Photo Profile */
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item:hover, .m-topbar .m-topbar__nav.m-nav>.m-nav__item.m-dropdown--open {
+    background-color: #2B7BE1;
+}
+
+/* Header Notification Icon Hover */
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item>.m-nav__link .m-nav__link-icon:hover {
+    color: #fff;
+}
+
+/* Header Notification Dropdown Position */
+.m-dropdown.m-dropdown--align-center.m-dropdown--large .m-dropdown__wrapper {
+    margin-left: -300px;
+}
+
+/* Header Notification Dropdown Background */
+.m-dropdown .m-dropdown__wrapper .m-dropdown__header {
+    background-color: #2B7BE1;
+    color: #fff;
+}
+
+/* Sidebar behind menu */
+.m-aside-left.m-aside-left--skin-light {
+    background-color: aliceblue;
+}
+
+/* Sidebar Bg Text */
+
+.m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading, .m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link {
+    background: linear-gradient(to right top, #2b7be1, #1a6ee6, #1e5fe8, #334de8, #4a35e4);
+}
+
+/* Sidebar Icon Color */
+.m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-icon {
+    color: #ffffff;
+}
+
+
+/* Sidebar Icon Arrow */
+.m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__ver-arrow {
+    color: #fff;
+}
+
+/* Sidebar Text Hover */
+.m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text:hover {
+    color: #2B7BE1 !important;
+}
+
+/* Sidebar Text Hover Active */
+.m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-text:hover {
+    color: #fff !important;
+}
+
+/* Sidebar Active Sub-Menu */
+.m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item.m-menu__item--active>.m-menu__heading, .m-aside-menu.m-aside-menu--skin-light .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item.m-menu__item--active>.m-menu__link {
+    background-color: #eee;
+}
+
+.table-responsive.unresponsive {
+    overflow-x: initial;
+}

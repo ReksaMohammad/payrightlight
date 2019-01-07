@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5xtep1');
+  src:  url('fonts/icomoon.eot?5xtep1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5xtep1') format('truetype'),
+    url('fonts/icomoon.woff?5xtep1') format('woff'),
+    url('fonts/icomoon.svg?5xtep1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.im {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.im-add-absen:before {
+  content: "\e900";
+}
+.im-att_viewer:before {
+  content: "\e901";
+}
+.im-bonus-criteria:before {
+  content: "\e902";
+}
+.im-calendar:before {
+  content: "\e903";
+}
+.im-calendar-setup:before {
+  content: "\e904";
+}
+.im-city:before {
+  content: "\e905";
+}
+.im-closing:before {
+  content: "\e906";
+}
+.im-com_msg:before {
+  content: "\e907";
+}
+.im-com-config:before {
+  content: "\e908";
+}
+.im-com-notif:before {
+  content: "\e909";
+}
+.im-config:before {
+  content: "\e90a";
+}
+.im-config-settings:before {
+  content: "\e90b";
+}
+.im-contract:before {
+  content: "\e90c";
+}
+.im-control-panel:before {
+  content: "\e90d";
+}
+.im-discount:before {
+  content: "\e90e";
+}
+.im-division:before {
+  content: "\e90f";
+}
+.im-dot:before {
+  content: "\e910";
+}
+.im-emp-update:before {
+  content: "\e911";
+}
+.im-import:before {
+  content: "\e912";
+}
+.im-information:before {
+  content: "\e913";
+}
+.im-inventory:before {
+  content: "\e914";
+}
+.im-list-com:before {
+  content: "\e915";
+}
+.im-location:before {
+  content: "\e916";
+}
+.im-manipulation:before {
+  content: "\e917";
+}
+.im-menu:before {
+  content: "\e918";
+}
+.im-news:before {
+  content: "\e919";
+}
+.im-night:before {
+  content: "\e91a";
+}
+.im-normal:before {
+  content: "\e91b";
+}
+.im-notification:before {
+  content: "\e91c";
+}
+.im-notif-user:before {
+  content: "\e91d";
+}
+.im-paycut-criteria:before {
+  content: "\e91e";
+}
+.im-payment-freq:before {
+  content: "\e91f";
+}
+.im-payment-method:before {
+  content: "\e920";
+}
+.im-productive:before {
+  content: "\e921";
+}
+.im-productive-value:before {
+  content: "\e922";
+}
+.im-rangka:before {
+  content: "\e923";
+}
+.im-reduce:before {
+  content: "\e924";
+}
+.im-register:before {
+  content: "\e925";
+}
+.im-repair:before {
+  content: "\e926";
+}
+.im-reset-pass:before {
+  content: "\e927";
+}
+.im-restrict:before {
+  content: "\e928";
+}
+.im-serial-num:before {
+  content: "\e929";
+}
+.im-service-setup:before {
+  content: "\e92a";
+}
+.im-shift:before {
+  content: "\e92b";
+}
+.im-skema-gaji:before {
+  content: "\e92c";
+}
+.im-special_bonus:before {
+  content: "\e92d";
+}
+.im-stat-machine:before {
+  content: "\e92e";
+}
+.im-status:before {
+  content: "\e92f";
+}
+.im-structure:before {
+  content: "\e930";
+}
+.im-system:before {
+  content: "\e931";
+}
+.im-title:before {
+  content: "\e932";
+}
+.im-to-do-list:before {
+  content: "\e933";
+}
+.im-tutorial:before {
+  content: "\e934";
+}
+.im-update-profile-user:before {
+  content: "\e935";
+}
+.im-user-company:before {
+  content: "\e936";
+}
+.im-user-group:before {
+  content: "\e937";
+}
+.im-user-menu:before {
+  content: "\e938";
+}
+.im-userminimumwagelevelscheme:before {
+  content: "\e939";
+}
+.im-variable:before {
+  content: "\e93a";
+}
+.im-version:before {
+  content: "\e93b";
+}
+.im-voucher:before {
+  content: "\e93c";
+}

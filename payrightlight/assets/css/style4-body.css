@@ -1,0 +1,247 @@
+/* Form */
+.m-body .m-content form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px #00000010
+}
+
+/* Form Image */
+
+
+/* Text Nama Perusahaan */
+.m-body .m-content .selection_box .selection_element .small_element_label {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Box Inside */
+.m-body .m-content .selection_box {
+  border: none;
+  border-radius: 0;
+}
+
+
+/* Icon ID */
+.m-body .m-content form > table > tbody > tr > td > a > img {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.m-body .m-content form > table > tbody > tr > td > table > tbody > tr > td > a > img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Table */
+.m-body .m-content form > table > tbody > tr {
+  height: 40px;
+}
+
+
+/* Dropdown Button */
+.m-body .m-content select {
+  border-radius: 5px;
+  background-color: #eee;
+  color: #555;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 0.5px solid silver;
+  margin-right: 1rem;
+}
+
+/* Text Search */
+.m-body .m-content input {
+  border-radius: 5px;
+  border: 1px solid silver;
+  background-color: #fff;
+  color: #555;
+  padding: 0.5rem;
+  cursor: auto;
+}
+
+
+/* Hidding Javascript Sidebar Gap */
+.gap-js {
+  height: 0px !important;
+}
+
+/* Header Sortable history box */
+
+#sortable_history_box .grid > tbody > tr {
+  height: 30px;
+}
+
+#sortable_history_box .grid > tbody > tr > .list_title {
+  padding: 10px;
+}
+
+
+/* Button Right Dashboard */
+.selection_element_right > div:first-child {
+  background-color: #2B7BE1;
+  border-radius: 5px;
+  padding: 0.5rem;
+  position: absolute;
+  right: 17.5%;
+  transition: 0.5s;
+}
+
+.selection_element_right > div:first-child:hover {
+  background-color: #074AA0;
+}
+
+.selection_element_right > div > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.selection_element_right > div:last-child {
+  background-color: #2B7BE1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.selection_element_right > div:last-child:hover {
+  background-color: #074AA0;
+}
+
+/* Table Dashboard */
+
+td[valign="top"] {
+  vertical-align: middle !important;
+}
+
+img[title="Machine Number"] {
+  margin-top: -0.5rem !important;
+  width: 30px;
+  height: 30px;
+}
+
+/* Icon Add in Dashboard */
+.bold_link .fa {
+  font-size: 1rem !important;
+  margin-right: 0.2rem;
+}
+
+/* Tab Menu Dashboard */
+.firstLevelMenu {
+  background-color: #eee !important;
+  border-radius: 5px 5px 0 0 !important;
+  transition: 0.5s;
+}
+
+.current .firstLevelMenu {
+  border-bottom: 2px solid black !important;
+}
+
+.firstLevelMenu b {
+  color: #555 !important;
+}
+
+.firstLevelMenu:hover {
+  color: #fff !important;
+}
+
+.firstLevelMenu a b:hover {
+  color: #fff !important;
+}
+
+/* Chart Font Size */
+.highcharts-label.highcharts-data-label text tspan {
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.highcharts-label.highcharts-data-label .highcharts-text-outline {
+  opacity: 0.5;
+}
+
+/* Cards in Dashboard */
+.square-card {
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.square-card a {
+  text-decoration: none;
+  color: #555;
+}
+
+.square-card .text-preview {
+  flex: 1;
+}
+
+.square-card .preview .spacer {
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
+  display: flex;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.square-card .preview .spacer:hover {
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  display: flex;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+.square-card .preview .spacer .icon-preview {
+  width: 25%;
+  border-radius: 5px 0 0 5px;
+}
+
+.square-card .preview .spacer .icon-preview.ip-1 {
+  background-color: #eb5757;
+}
+
+.square-card .preview .spacer .icon-preview.ip-2 {
+  background-color: #27ae60;
+}
+
+.square-card .preview .spacer .icon-preview.ip-3 {
+  background-color: #f2994a;
+}
+
+.square-card .preview .spacer .icon-preview.ip-4 {
+  background-color: #2B7BE1;
+}
+
+.square-card .preview .spacer .icon-preview i {
+  font-size: 2rem;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  color: #fff;
+}
+
+.square-card .preview .spacer .text-preview {
+  margin-left: 5%;
+}
+
+.square-card .preview .spacer .text-preview p {
+  font-size: 0.8rem;
+}
+
+.square-card .preview .spacer .text-preview p:first-child {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.square-card .preview .spacer .text-preview p:last-child {
+  font-weight: 500;
+}
+
+.chartJs {
+  padding: 2rem;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+}
